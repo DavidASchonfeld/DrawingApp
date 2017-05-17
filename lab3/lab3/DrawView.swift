@@ -45,7 +45,7 @@ class DrawView: UIView {
     currentCircleColor.setFill()
     currentCircleColor.setStroke()
     
-    //Note: The following 2 lines is from the drawCircles demo in class
+    //Note: The following 2 lines are from the drawCircles demo in class
     path.addArc(withCenter: theCircle!.center, radius: theCircle!.radius, startAngle: 0, endAngle: CGFloat(M_PI * 2), clockwise: true)
     path.fill()
     
